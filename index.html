@@ -33,7 +33,7 @@
     "knowsAbout": ["Cattle feed", "Feed brokerage", "Cow-calf operation", "Stocker cattle pre-conditioning", "Cattle consulting"]
   }
   </script>
-  <link rel="preload" as="image" href="assets/hero-calves.jpg" fetchpriority="high">
+  <link rel="preload" as="image" imagesrcset="assets/hero-800.webp 800w, assets/hero-1280.webp 1280w, assets/hero-1800.webp 1800w" imagesizes="100vw" fetchpriority="high">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -69,7 +69,7 @@
 
 <!-- ============ HERO ============ -->
 <section class="hero">
-  <img class="hero-img" src="assets/hero-calves.jpg" alt="Mixed stocker calves looking at the camera in a Whitley Farms pasture" fetchpriority="high">
+  <img class="hero-img" src="assets/hero-calves.jpg" srcset="assets/hero-800.webp 800w, assets/hero-1280.webp 1280w, assets/hero-1800.webp 1800w" sizes="100vw" alt="Mixed stocker calves looking at the camera in a Whitley Farms pasture" fetchpriority="high">
   <div class="hero-overlay" aria-hidden="true"></div>
   <div class="hero-content">
     <div class="badge-40" role="img" aria-label="40 years experience">
@@ -122,7 +122,7 @@
 <section class="about" id="about">
   <div class="about-grid">
     <figure class="about-photo reveal">
-      <img src="assets/med/fenceline.jpg" alt="Whitley Farms cattle lined up along a green fence line in spring" loading="lazy">
+      <img src="assets/med/fenceline.jpg" srcset="assets/med/fenceline.webp" decoding="async" alt="Whitley Farms cattle lined up along a green fence line in spring" loading="lazy">
       <figcaption class="photo-tag">The herd, springtime</figcaption>
     </figure>
     <div class="about-text reveal">
@@ -148,21 +148,21 @@
   </div>
   <div class="feature-grid">
     <article class="feature-card reveal">
-      <img src="assets/med/mama-calf.jpg" alt="Mama cow standing over her newborn calf in the pasture" loading="lazy">
+      <img src="assets/med/mama-calf.jpg" srcset="assets/med/mama-calf.webp" decoding="async" alt="Mama cow standing over her newborn calf in the pasture" loading="lazy">
       <div class="feature-body">
         <h3>Cow/Calf Operation</h3>
         <p>Our mama cow herd is the heart of the farm. Good genetics, good grass, and good care produce calves that hit the ground healthy and stay that way.</p>
       </div>
     </article>
     <article class="feature-card reveal">
-      <img src="assets/med/stockers-pen.jpg" alt="Pen of mixed stocker calves under a clear blue sky" loading="lazy">
+      <img src="assets/med/stockers-pen.jpg" srcset="assets/med/stockers-pen.webp" decoding="async" alt="Pen of mixed stocker calves under a clear blue sky" loading="lazy">
       <div class="feature-body">
         <h3>Stocker Pre-Conditioning</h3>
         <p>We pre-condition stocker calves for the feed yards — weaned, bunk-broke, vaccinated, and started on feed so they arrive ready to perform.</p>
       </div>
     </article>
     <article class="feature-card reveal">
-      <img src="assets/med/feedyard-herd.jpg" alt="Large group of cattle at the feed yard on a clear winter morning" loading="lazy">
+      <img src="assets/med/feedyard-herd.jpg" srcset="assets/med/feedyard-herd.webp" decoding="async" alt="Large group of cattle at the feed yard on a clear winter morning" loading="lazy">
       <div class="feature-body">
         <h3>Ready for the Feed Yard</h3>
         <p>Buyers know what they're getting with Whitley cattle: calves that are straightened out, eating, and ready to go to work.</p>
@@ -181,7 +181,7 @@
 
   <div class="split">
     <div class="split-media reveal">
-      <video controls playsinline preload="metadata" poster="assets/video-poster.jpg" aria-label="Video: laying custom feed down the bunk line at Whitley Farms">
+      <video controls playsinline preload="none" poster="assets/video-poster.jpg" aria-label="Video: laying custom feed down the bunk line at Whitley Farms">
         <source src="assets/farm-video.mp4" type="video/mp4">
         Your browser doesn't support video playback.
       </video>
@@ -202,13 +202,13 @@
 
   <div class="trucking-band">
     <figure class="trucking-photo reveal">
-      <img src="assets/med/truck-peterbilt.jpg" alt="Whitley Farms LLC red Peterbilt semi truck parked under the barn" loading="lazy">
+      <img src="assets/med/truck-peterbilt.jpg" srcset="assets/med/truck-peterbilt.webp" decoding="async" alt="Whitley Farms LLC red Peterbilt semi truck parked under the barn" loading="lazy">
     </figure>
     <figure class="trucking-photo reveal">
-      <img src="assets/med/truck-loading-dusk.jpg" alt="Whitley cattle trailer being loaded at sunset" loading="lazy">
+      <img src="assets/med/truck-loading-dusk.jpg" srcset="assets/med/truck-loading-dusk.webp" decoding="async" alt="Whitley cattle trailer being loaded at sunset" loading="lazy">
     </figure>
     <figure class="trucking-photo reveal">
-      <img src="assets/med/feed-wagon.jpg" alt="Tractor pulling a feed mixer wagon across the lot" loading="lazy">
+      <img src="assets/med/feed-wagon.jpg" srcset="assets/med/feed-wagon.webp" decoding="async" alt="Tractor pulling a feed mixer wagon across the lot" loading="lazy">
     </figure>
   </div>
 </section>
@@ -241,14 +241,14 @@
     <h2>Out in the Pasture</h2>
   </div>
   <div class="gallery-grid">
-    <button class="gallery-item reveal" data-full="assets/calves-feedtrailer.jpg"><img src="assets/thumb/calves-feedtrailer.jpg" alt="Curious stocker calves gathered by the feed trailer" loading="lazy"></button>
-    <button class="gallery-item reveal" data-full="assets/calf-wildflowers.jpg"><img src="assets/thumb/calf-wildflowers.jpg" alt="Young calf resting in a field of yellow wildflowers" loading="lazy"></button>
-    <button class="gallery-item reveal" data-full="assets/charolais-cow.jpg"><img src="assets/thumb/charolais-cow.jpg" alt="Horned cow grazing winter pasture" loading="lazy"></button>
-    <button class="gallery-item reveal" data-full="assets/bunk-calves.jpg"><img src="assets/thumb/bunk-calves.jpg" alt="Calves eating at the feed bunk" loading="lazy"></button>
-    <button class="gallery-item reveal" data-full="assets/foggy-pasture.jpg"><img src="assets/thumb/foggy-pasture.jpg" alt="Cattle grazing on a foggy morning" loading="lazy"></button>
-    <button class="gallery-item reveal" data-full="assets/bull-bale.jpg"><img src="assets/thumb/bull-bale.jpg" alt="Cattle around a round bale of hay" loading="lazy"></button>
-    <button class="gallery-item reveal" data-full="assets/hero-calves.jpg"><img src="assets/thumb/hero-calves.jpg" alt="Mixed calves up close in the pasture" loading="lazy"></button>
-    <button class="gallery-item reveal" data-full="assets/donkey.jpg"><img src="assets/thumb/donkey.jpg" alt="The farm donkey keeping watch over the herd" loading="lazy"></button>
+    <button class="gallery-item reveal" data-full="assets/calves-feedtrailer.jpg"><img src="assets/thumb/calves-feedtrailer.jpg" srcset="assets/thumb/calves-feedtrailer.webp" decoding="async" alt="Curious stocker calves gathered by the feed trailer" loading="lazy"></button>
+    <button class="gallery-item reveal" data-full="assets/calf-wildflowers.jpg"><img src="assets/thumb/calf-wildflowers.jpg" srcset="assets/thumb/calf-wildflowers.webp" decoding="async" alt="Young calf resting in a field of yellow wildflowers" loading="lazy"></button>
+    <button class="gallery-item reveal" data-full="assets/charolais-cow.jpg"><img src="assets/thumb/charolais-cow.jpg" srcset="assets/thumb/charolais-cow.webp" decoding="async" alt="Horned cow grazing winter pasture" loading="lazy"></button>
+    <button class="gallery-item reveal" data-full="assets/bunk-calves.jpg"><img src="assets/thumb/bunk-calves.jpg" srcset="assets/thumb/bunk-calves.webp" decoding="async" alt="Calves eating at the feed bunk" loading="lazy"></button>
+    <button class="gallery-item reveal" data-full="assets/foggy-pasture.jpg"><img src="assets/thumb/foggy-pasture.jpg" srcset="assets/thumb/foggy-pasture.webp" decoding="async" alt="Cattle grazing on a foggy morning" loading="lazy"></button>
+    <button class="gallery-item reveal" data-full="assets/bull-bale.jpg"><img src="assets/thumb/bull-bale.jpg" srcset="assets/thumb/bull-bale.webp" decoding="async" alt="Cattle around a round bale of hay" loading="lazy"></button>
+    <button class="gallery-item reveal" data-full="assets/hero-calves.jpg"><img src="assets/thumb/hero-calves.jpg" srcset="assets/thumb/hero-calves.webp" decoding="async" alt="Mixed calves up close in the pasture" loading="lazy"></button>
+    <button class="gallery-item reveal" data-full="assets/donkey.jpg"><img src="assets/thumb/donkey.jpg" srcset="assets/thumb/donkey.webp" decoding="async" alt="The farm donkey keeping watch over the herd" loading="lazy"></button>
   </div>
   <div class="gallery-follow reveal">
     <a class="btn btn-green" href="https://www.instagram.com/thefeedtrough/" target="_blank" rel="noopener">
